@@ -1,0 +1,90 @@
+/* src/components/ProductCard.css */
+.product-card {
+  border: 1px solid #ddd;
+  width: 45%; /* Adjusted to allow two cards per row */
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.product-image-container {
+  width: 100%;
+  height: 200px;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.settings-dots {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.product-details {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #777;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.options-menu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+
+.search-input {
+  padding: 5px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.option-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.option-button:hover {
+  background-color: #005bb5;
+}

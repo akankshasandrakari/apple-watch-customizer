@@ -1,0 +1,22 @@
+/* src/styles/Index.module.css */
+.landingPage {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro {
+  margin-top: 20px;
+}
+
+.customizeButton {
+  background-color: #0070f3;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.customizeButton:hover {
+  background-color: #005bb5;
+}

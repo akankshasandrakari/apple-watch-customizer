@@ -1,0 +1,125 @@
+.welcomePage {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.welcomeHeading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.welcomeContent {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeText {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.startButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: #0056b3;
+}
+
+/* Product card style */
+.productCard {
+  width: 300px; /* Fixed width for each card */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  margin: 10px; /* Add margin for spacing between cards */
+}
+
+/* Product image */
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Card header */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Product name */
+.productName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Product price */
+.productPrice {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Features list */
+.featuresList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Optional hover effect for product card */
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+/* Flex container for product cards */
+.productContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+  justify-content: center; /* Center the cards */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}

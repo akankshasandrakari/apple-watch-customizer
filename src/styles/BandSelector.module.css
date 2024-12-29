@@ -1,0 +1,27 @@
+.bandCarousel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.band {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.band img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.band p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.selected {
+  transform: scale(1.1);
+  border: 2px solid #0070f3;
+}

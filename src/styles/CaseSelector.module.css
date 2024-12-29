@@ -1,0 +1,16 @@
+/* src/styles/CaseSelector.module.css */
+.case:hover,
+.size:hover,
+.band:hover {
+  transform: scale(1.05);
+}
+
+.case,
+.size,
+.band {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.selected {
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+}

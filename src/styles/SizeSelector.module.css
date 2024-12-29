@@ -1,0 +1,29 @@
+/* src/components/SizeSelector.module.css */
+.sizeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.size.selected {
+  border: 2px solid #0070f3;
+  padding: 5px;
+}
+
+.size img {
+  width: 80px;
+  height: 80px;
+}
+
+.size p {
+  font-size: 1rem;
+  color: #333;
+}

@@ -1,0 +1,15 @@
+/* src/components/PriceDisplay.module.css */
+.priceContainer {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+.description {
+  font-size: 1rem;
+  color: grey;
+}
